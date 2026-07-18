@@ -1,2 +1,7 @@
 .venv/
 __pycache__/
+ghost.py
+daemon.sh
+src_backup/
+.agent/
+master_deploy.sh
