@@ -7,3 +7,6 @@ src_backup/
 master_deploy.sh
 flight_data.csv
 flight_plot.png
+build/
+dist/
+*.spec
