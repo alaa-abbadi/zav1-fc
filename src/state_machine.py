@@ -7,3 +7,5 @@ class FlightStateMachine:
             self.state = "ASCENT"
         elif self.state == "ASCENT" and velocity < 0:
             self.state = "COAST"
+        elif self.state == "COAST" and altitude <= 0:
+            self.state = "LANDED"

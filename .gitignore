@@ -5,3 +5,4 @@ daemon.sh
 src_backup/
 .agent/
 master_deploy.sh
+flight_data.csv
