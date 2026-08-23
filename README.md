@@ -2,6 +2,10 @@
 
 A small Python simulation of a rocket's vertical flight: powered ascent, coast, descent, and landing.
 
+## ⚡ Try it Now
+
+**[🚀 Live Demo](https://alaa-abbadi.github.io/zav1-fc/)** — Run the simulation in your browser with no installation required!
+
 ####What it does
 
 - Integrates the flight state (altitude, velocity) with an RK4 physics engine
@@ -29,4 +33,4 @@ A standalone binary can be built with PyInstaller:
 ./dist/zav1-sim
 ```
 VERY IMPORTANT!!!!!
-Limitation: PyInstaller does not cross-compile. A binary built on Linux only runs on Linux; macOS and Windows binaries must be built on those respective OSes. The binary included with this submission was built on Linux and will not run on Windows or macOS.
+Limitation: PyInstaller does not cross-compile. A binary built on Linux only runs on Linux; macOS and Windows binaries must be built on those respective OSes. The binary included with this submiss[...]
